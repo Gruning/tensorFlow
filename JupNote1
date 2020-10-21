@@ -23,7 +23,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 29,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -32,7 +32,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 30,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -41,7 +41,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 31,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -50,7 +50,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 32,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -59,7 +59,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 33,
    "metadata": {
     "tags": []
    },
@@ -78,7 +78,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 34,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -87,7 +87,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 35,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -96,7 +96,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 36,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -105,7 +105,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 37,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -114,7 +114,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 38,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -123,7 +123,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": 39,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -132,7 +132,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 40,
    "metadata": {
     "tags": []
    },
@@ -151,7 +151,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 41,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -160,7 +160,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 42,
    "metadata": {},
    "outputs": [
     {
@@ -177,7 +177,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 43,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -186,7 +186,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 44,
    "metadata": {},
    "outputs": [
     {
@@ -203,7 +203,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 45,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -212,7 +212,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 46,
    "metadata": {},
    "outputs": [
     {
@@ -229,7 +229,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
+   "execution_count": 47,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -238,7 +238,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+   "execution_count": 48,
    "metadata": {},
    "outputs": [
     {
@@ -255,7 +255,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
+   "execution_count": 49,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -264,7 +264,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 24,
+   "execution_count": 50,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -273,7 +273,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 25,
+   "execution_count": 51,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -282,7 +282,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+   "execution_count": 52,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -291,7 +291,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 27,
+   "execution_count": 53,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -300,33 +300,25 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 28,
+   "execution_count": 54,
    "metadata": {},
    "outputs": [],
    "source": [
-    "W = tf.Variable(0,name='weight')"
+    "W = tf.Variable(NN)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 29,
+   "execution_count": 55,
    "metadata": {},
-   "outputs": [
-    {
-     "output_type": "stream",
-     "name": "stdout",
-     "text": [
-      "WARNING:tensorflow:From /home/kimono/.local/lib/python3.8/site-packages/tensorflow/python/util/tf_should_use.py:247: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.\nInstructions for updating:\nUse `tf.global_variables_initializer` instead.\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "init_op =tf.compat.v1.initialize_all_variables()"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": 56,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -335,11 +327,41 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": 57,
    "metadata": {},
    "outputs": [],
    "source": [
     "#print(W.eval())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "W=tf.Variable(0,name=\"weight\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "error",
+     "ename": "AttributeError",
+     "evalue": "module 'tensorflow' has no attribute 'initialize_all_variables'",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-59-c55a5d55a5a1>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0minit_op\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mtf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minitialize_all_variables\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m: module 'tensorflow' has no attribute 'initialize_all_variables'"
+     ]
+    }
+   ],
+   "source": [
+    "#init_op = tf.initialize_all_variables()"
    ]
   },
   {
