@@ -23,7 +23,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 29,
+   "execution_count": 105,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -32,7 +32,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 30,
+   "execution_count": 106,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -41,7 +41,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": 107,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -50,7 +50,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 32,
+   "execution_count": 108,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -59,7 +59,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": 109,
    "metadata": {
     "tags": []
    },
@@ -78,7 +78,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 110,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -87,7 +87,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 111,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -96,7 +96,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": 112,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -105,7 +105,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 113,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -114,7 +114,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
+   "execution_count": 114,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -123,7 +123,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 39,
+   "execution_count": 115,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -132,7 +132,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 40,
+   "execution_count": 116,
    "metadata": {
     "tags": []
    },
@@ -151,7 +151,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 41,
+   "execution_count": 117,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -160,7 +160,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 42,
+   "execution_count": 118,
    "metadata": {},
    "outputs": [
     {
@@ -177,7 +177,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 43,
+   "execution_count": 119,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -186,7 +186,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
+   "execution_count": 120,
    "metadata": {},
    "outputs": [
     {
@@ -203,7 +203,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 45,
+   "execution_count": 121,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -212,7 +212,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": 122,
    "metadata": {},
    "outputs": [
     {
@@ -229,7 +229,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 47,
+   "execution_count": 123,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -238,7 +238,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 48,
+   "execution_count": 124,
    "metadata": {},
    "outputs": [
     {
@@ -255,16 +255,18 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 49,
+   "execution_count": 125,
    "metadata": {},
    "outputs": [],
    "source": [
-    "sess = tf.compat.v1.Session()\n"
+    "sess = tf.compat.v1.InteractiveSession(\n",
+    "    target='', graph=None, config=None\n",
+    ")"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 50,
+   "execution_count": 126,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -273,7 +275,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 51,
+   "execution_count": 127,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -282,16 +284,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 52,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "sess = tf.compat.v1.InteractiveSession()"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 53,
+   "execution_count": 128,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -300,7 +293,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 54,
+   "execution_count": 129,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -309,7 +302,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 55,
+   "execution_count": 130,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -318,7 +311,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 56,
+   "execution_count": 131,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -327,7 +320,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 57,
+   "execution_count": 132,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -336,7 +329,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 58,
+   "execution_count": 133,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -345,23 +338,68 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 59,
+   "execution_count": 134,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#init_op = tf.initialize_all_variables()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
    "metadata": {},
    "outputs": [
     {
-     "output_type": "error",
-     "ename": "AttributeError",
-     "evalue": "module 'tensorflow' has no attribute 'initialize_all_variables'",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-59-c55a5d55a5a1>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0minit_op\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mtf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minitialize_all_variables\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-      "\u001b[0;31mAttributeError\u001b[0m: module 'tensorflow' has no attribute 'initialize_all_variables'"
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "[[ 7. 10.]\n [15. 22.]]\n"
      ]
     }
    ],
    "source": [
-    "#init_op = tf.initialize_all_variables()"
+    "s = tf.compat.v1.Session()\n",
+    "with tf.compat.v1.get_default_graph().as_default():\n",
+    "  h = tf.constant(NN)\n",
+    "  print(s.run(h))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 136,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "[[7 10]\n",
+      " [15 22]]\n",
+      "None\n"
+     ]
+    }
+   ],
+   "source": [
+    "h = tf.constant(NN)\n",
+    "print(tf.print(h))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "[[1. 4.]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(M2.numpy())"
    ]
   },
   {
